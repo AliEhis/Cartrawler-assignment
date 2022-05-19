@@ -1,0 +1,31 @@
+body {
+  min-width: 300px;
+}
+.w-10 {
+  width: 10%!important
+}
+/* Navbar */
+.navbar.navbar-dark .menu-item {
+  color: #FFF;
+  margin: auto 10px;
+}
+.card {
+  cursor: pointer;
+  pointer-events: painted;
+}
+.left {
+  display: flex;
+}
+.right {
+  display: flex;
+}
+@media screen and (max-width: 480px) {
+  .left {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+  }
+  .right {
+    margin-bottom: 1rem;
+  }
+}
